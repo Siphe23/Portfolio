@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Header */
+body{
+    background-color: yellow;
+}
+header {
+    background-color: #fff;
+    color: orange;
+    padding: 30px ;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+      .logo h1{
+        margin-left: 40px;
+        margin-top: 40px; 
+        text-align: left; 
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+
+nav ul {
+    text-align: left;
+    list-style-type: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+    padding: 30px;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 50px;
+    margin-left: 50px;
+    font-size: larger;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: orange;
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Profile Picture */
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.about-me-title {
+    font-size: 36px; 
+    color: orange; 
+    text-align: center; 
+    margin-top: 50px; 
+    
+}
+
+/* Bio */
+.bio {
+    margin-left: 30px;
+    color: orange;
+    
+}
+.bio h2{
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+h1 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 48px; 
+    color: orange; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    padding: 20px 0; 
+  }
+
+  
+/* Hobbies */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 300px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .card-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+  .card-content p {
+    margin-top: 12px;
+    font-size: 14px;
+    color: orange;
+    
+  }
+  .container h3 ,  .cv h2, .card h3,  .education h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: orange;
+    
+  }
+  
+/* Education */
+.education {
+    margin-top: 50px;
+    text-align: center;
+    color: orange;
+
+}
+
+/* CV */
+.cv {
+    color: orange;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.cv a {
+    color: #fff;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cv a:hover {
+    background-color: orange;
+}
+/* Footer */
+footer {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+
+    
+}
